@@ -1,0 +1,41 @@
+problem no => 
+7
+10
+14
+19
+20
+21 t0 28 
+
+
+
+practice2
+3 [approach=2]
+
+
+//SIEVE OF ERATHESIS 
+#include <iostream>
+ #include <vector>
+
+ using namespace std;
+
+ int countprime(int n){
+    int cnt=0;
+    vector<bool>prime(n,true);
+    prime[0]=false;
+    for(int i=2;i<n;i++){
+if(prime[i]){
+    cnt++;
+    for(int j=2*i;j<n;j=j+i){
+        prime[j]=0;
+    }
+
+}}
+
+    
+    return cnt;
+ }
+ 
+int main(){
+  cout<<countprime(40);
+    return 0;
+}
