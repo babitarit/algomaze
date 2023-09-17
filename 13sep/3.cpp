@@ -12,6 +12,8 @@ void solve(int arr[], int n) {
     cout << arr[i] << " ";
   }
 
+  
+
 }
 int main() {
   int n=5;
