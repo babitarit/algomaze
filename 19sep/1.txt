@@ -1,0 +1,5 @@
+topic binary search
+
+done 1) finding first and last ocuurance of an element in sorted array
+2) found peak index in an mountain array
+3)find pivot in an araay
