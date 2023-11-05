@@ -1,0 +1,2 @@
+1)rotate array
+2) sum of two array
