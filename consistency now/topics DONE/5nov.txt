@@ -1,3 +1,4 @@
 1)rotate array
 2) sum of two array
 3) string ques
+4)string reverse
